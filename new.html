@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        nav ul li {
+            list-style: none;
+            display: inline;
+        }
+        nav a{
+            display: none;
+            padding: 5px;
+            color: black;
+            text-decoration: none;
+        }
+        .container{
+            background-color: blueviolet;
+            border: 2px dashed #1f1717;
+            width: 400px;
+            height: 300px;
+            padding: 10px;
+            position: relative;
+        }
+        .box{
+            background-color: bisque;
+            width: 100px;
+            height: 50px;
+            color: blue;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 2px #007200 solid;
+        }
+        .box-1{
+            background-color: blue;
+        }
+        .box-3{
+            background-color: aqua;
+        }
+        .box-2{
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <!-- <ul>
+        <li><a href="#">home</a></li> &nbsp;&nbsp;
+        <li><a href="#">about</a></li> &nbsp;&nbsp;
+        <li><a href="#">services</a></li> &nbsp;&nbsp;
+        <li><a href="#">contact</a></li> &nbsp;&nbsp;
+    </ul> -->
+    </nav>
+    <nav>
+        <a href="#">home</a>
+        <a href="#">about</a>
+        <a href="#">services</a>
+        <a href="#">contact</a>
+    </nav>
+    <hr>
+    <h2>possitions in css</h2>
+    <div class="container">
+        <div class="box box-1">box 1</div>
+        <div class="box box-2">box 2</div>
+        <div class="box box-3">box 3</div>
+    </div>
+    
+</body>
+</html>
